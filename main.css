@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/20/19/30/dice-3095227_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: white;
+    margin: 0;
+}
+h2 {
+    margin: .3rem 0;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 2rem;
+}
+p {
+    margin: .2rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: .3rem;
+    color: black;
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    width: 30rem;
+    background-color: rgb(247, 247, 108);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+}
+.saldo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    width: 6rem;
+    height: 3rem;
+    border: .2rem solid gray;
+    border-radius: .3rem;
+    margin: 1rem 0;
+}
+.numeros {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem 0;
+}
+.ver {
+    width: 4rem;
+    height: 4rem;
+    border: .3rem solid gray;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.btn:focus {
+    outline: none;
+}
+.btn {
+    background-color: green;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn:active {
+    background-color: white;
+    border: .2rem solid green;
+    color: green;
+}
+/* modal */
+.modal {
+    width: 45rem;
+    height: 35rem;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    border-radius: .5rem;
+    color: black;
+}
+.modal p {
+    margin: 4rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 3rem;
+}
