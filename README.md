@@ -25,4 +25,4 @@ Simple Jackpot Game, made in Javascript, Enjoy it. / Sencillo Juego de Jackpot (
 
 ---
 
-# [Pruebalo aqui](https://gac982.github.io/change-color-app/ "demo")
+# [Pruebalo aqui](https://gac982.github.io/super-jackpot-game-app/ "demo")
